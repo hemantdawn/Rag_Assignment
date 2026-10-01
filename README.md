@@ -1,5 +1,9 @@
 # Citation-aware RAG
 
+## AI agent transcript
+
+The [combined AI agent conversation](docs/ai-transcripts/COMBINED_CONVERSATION.md) records the project discussions in chronological order. The [architecture walkthrough](docs/ai-transcripts/ARCHITECTURE_WALKTHROUGH.md) connects recorded decisions to the implementation and clearly labels retrospective explanations. The readable conversation excludes tool activity and internal instructions; it complements the full session logs rather than replacing them.
+
 Upload documents, run the worker, and ask questions with citations. PostgreSQL + pgvector is the recommended backend. It keeps document versions, chunks, search indexes, jobs, and traces in one database; uploaded files remain on the local filesystem.
 
 ## 1. What you need
